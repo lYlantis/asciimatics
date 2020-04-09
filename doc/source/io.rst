@@ -29,6 +29,7 @@ as the above.  For example:
     from asciimatics.scene import Scene
     from asciimatics.effects import Cycle, Stars
     from asciimatics.renderers import FigletText
+    from time import sleep
 
     @ManagedScreen
     def demo(screen=None):
@@ -46,6 +47,7 @@ Or you can also use it as a context manager (i.e. using the `with` keyword).  Fo
     from asciimatics.scene import Scene
     from asciimatics.effects import Cycle, Stars
     from asciimatics.renderers import FigletText
+    from time import sleep
 
     def demo():
         with ManagedScreen() as screen:
